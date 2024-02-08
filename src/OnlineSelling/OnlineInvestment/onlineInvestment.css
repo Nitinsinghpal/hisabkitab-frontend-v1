@@ -1,0 +1,97 @@
+.oi-main{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.oi-heading{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+}
+.oi-content{
+    background-color: bisque;
+    height: 350px;
+}
+.oi-content1{
+display: flex;
+}
+.oi-left{
+    background-color: cadetblue;
+    height: 350px;
+    width: 30%;
+}
+.oi-form-heading h5{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: lightgrey;
+    margin-top: 25px;   
+}
+.oi-form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 13px;
+}
+.oi-form-label{
+    color: cornsilk;
+}
+.oi-form-input{
+    height: 25px;
+    width: 210px;
+    border-radius: 5px;
+    border: none;
+}
+.oi-form-button{
+    background-color: lightsteelblue;
+    border: none;
+    height: 30px;
+    width: 84px;
+}
+.oi-right{
+    /* background-color: blue; */
+    height: 350px;
+    width: 70%;
+    overflow-y: scroll;
+}
+.oi-month-totalAmount{
+    display: flex;
+    justify-content: space-between;
+}
+.oi-month-totalAmount-month{
+    color: darkcyan;
+}
+.oi-month-totalAmount-total{
+    color: darkcyan;
+}
+/* Table start */
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+
+/* Table end */

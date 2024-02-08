@@ -1,0 +1,63 @@
+.tableDiv{
+    width: 86%;
+    display: flex;
+    justify-content: end;
+    overflow-y: scroll;
+    height: 350px;
+}
+/* table start */
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 2px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    background-color: #04AA6D;
+    color: white;
+    position: sticky;
+  }
+  #table th h1{
+    font-size: 23px;
+  }
+  #table tr td{
+    text-align: center;
+  }
+/* table end */
+
+.vp-month-totalAmount-td{
+
+        background-color: cadetblue;
+}
+.vp-month-totalAmount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vp-month-totalAmount-month{
+
+}
+.vp-month-totalAmount-total{
+
+}
+
+/* .totalAmount{
+    float: right;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-right: 118px;
+}
+.totalPayments{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+} */

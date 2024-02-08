@@ -1,0 +1,25 @@
+.mainDiv{
+    height: 580px;
+    width: 100%;
+}
+.paymentButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 101px;
+    width: 208px;
+    background-color: darkgrey;
+    margin: 14px; 
+}
+.paymentLink{
+    text-decoration: none;
+}
